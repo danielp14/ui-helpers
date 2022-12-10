@@ -1,0 +1,296 @@
+
+body {
+	background: #efefef;
+	font-family: 'Open Sans',sans-serif;
+	font-style: normal;
+	padding: 1rem;
+	line-height: 1.4;
+}
+
+li {
+	padding: 5rem 1rem;
+	text-align: center;
+	font-size: 1.2rem;
+	background: #eb4d4b;
+	color: #ffffff;
+	border-radius: 1em;
+	list-style-type: none;
+}
+.grid-container{
+	--auto-grid-min-size: 16rem;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+	grid-gap: 1rem;
+}
+
+/**
+ * UI Gradients Styles
+ */
+
+.instagram{
+	background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.netflix{
+	background: linear-gradient(to right, #8e0e00, #1f1c18); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+.ver{
+	background: linear-gradient(to right, #ffe000, #799f0c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.yoda{
+	background: linear-gradient(to right, #ff0099, #493240); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/** FLAT UI COLORS **/
+.rosa{
+	background-color: #f368e0;
+}
+.purpura{
+	background-color: #5f27cd;
+}
+.celeste{
+	background-color: #0abde3;
+}
+.verde{
+	background-color: #00d2d3;
+}
+
+/** FONTS ICONS */
+.instagram i {
+	font-size: 5rem;
+}
+.linkedin{
+	background-color: #0A66C2;
+}
+.linkedin i{
+	font-size: 5rem;
+}
+.youtube{
+	background-color: #C4302B;
+}
+.youtube i{
+	font-size: 5rem;
+}
+.whatsapp{
+	background-color: #25D366;
+}
+.whatsapp i{
+    font-size: 5rem;
+}
+
+/** CSS loader IO */
+.loader-1 {
+	position: relative;
+	width: 78px;
+	height: 78px;
+	border-radius: 50%;
+	box-sizing: border-box;
+	background: #fff;
+	border: 8px solid #131a1d;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.loader-1::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: -50%;
+	width: 100%;
+	height: 100%;
+	background: #263238 ;
+	z-index: 5;
+	border-bottom: 8px solid #131a1d;
+	box-sizing: border-box;
+	animation: eyeShade 3s infinite;
+}
+.loader-1::before {
+	content: '';
+	position: absolute;
+	left: 20px;
+	bottom: 15px;
+	width: 32px;
+	z-index: 2;
+	height: 32px;
+	background: #111;
+	border-radius: 50%;
+	animation: eyeMove 3s infinite;
+}
+@keyframes eyeShade {
+	0%   { transform: translateY(0)}
+	20%   { transform: translateY(5px)}
+	40% , 50%   { transform: translateY(-5px)}
+	60%   { transform: translateY( -8px)}
+	75%   { transform: translateY( 5px)}
+	100%   { transform: translateY(10px)}
+}
+@keyframes eyeMove {
+	0%   { transform: translate(0 , 0)}
+	20%   { transform: translate(0px , 5px)}
+	40% , 50%   { transform: translate(0px , -5px)}
+	60%   { transform: translate(-10px , -5px)}
+	75%   { transform: translate(-20px , 5px)}
+	100%   { transform: translate(0 , 10px)}
+}
+
+.loader-2 {
+	width: 48px;
+	height: 48px;
+	position: relative;
+}
+.loader-2::before , .loader::after{
+	content: '';
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50% , -50%);
+	width: 48em;
+	height: 48em;
+	background-image:
+		radial-gradient(circle 10px, #FFF 100%, transparent 0),
+		radial-gradient(circle 10px, #FFF 100%, transparent 0),
+		radial-gradient(circle 10px, #FFF 100%, transparent 0),
+		radial-gradient(circle 10px, #FFF 100%, transparent 0),
+		radial-gradient(circle 10px, #FFF 100%, transparent 0),
+		radial-gradient(circle 10px, #FFF 100%, transparent 0),
+		radial-gradient(circle 10px, #FFF 100%, transparent 0),
+		radial-gradient(circle 10px, #FFF 100%, transparent 0);
+	background-position: 0em -18em, 0em 18em, 18em 0em, -18em 0em,
+		13em -13em, -13em -13em, 13em 13em, -13em 13em;
+	background-repeat: no-repeat;
+	font-size: 0.5px;
+	border-radius: 50%;
+	animation: blast 1s ease-in infinite;
+}
+
+.loader-2::after {
+	font-size: 1px;
+	background: #fff;
+	animation: bounce 1s ease-in infinite;
+}
+  
+@keyframes bounce {
+	0% , 100%{ font-size: 0.75px }
+	50% { font-size: 1.5px }
+}
+@keyframes blast {
+	0% , 40% {
+		font-size: 0.5px;
+	}
+	70% {
+		opacity: 1;
+		font-size: 4px;
+	}
+		100% {
+		font-size: 6px;
+		opacity: 0;
+	}
+}
+.argentina{
+	background-color: #00d2d3;
+}
+.loader-3 {
+	font-size: 2.5rem;
+	display: inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #ffdd59;
+	letter-spacing: 2px;
+	position: relative;
+  }
+  .loader-3::after {
+	content: 'ARGENTINA';
+	position: absolute;
+	left: 0;
+	top: 0;
+	color: #FFF;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	box-sizing: border-box;
+	animation: animloader 10s ease-in infinite;
+  }
+  
+  @keyframes animloader {
+	0% {
+	  width: 0%;
+	}
+	100% {
+	  width: 100%;
+	}
+  }
+/*algunos icons requieres estar en un contenedor con display flex */
+.icon-box{
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+.loader-4 {
+    position: relative;
+    animation: flix 3s ease-in infinite alternate;
+  }
+  .loader-4:before {
+    content: '';
+    display: block;
+    font-size: 0;
+    width: 48px;
+    height: 48px;
+    background-color: #fff ;
+    background-image:radial-gradient(circle 12px at 22px 22px, #FF3D00 100%, transparent 0),
+      radial-gradient(circle 10px at 6px 40px, #FF3D00 100%, transparent 0),
+      radial-gradient(circle 14px at 31px -6px, #FF3D00 100%, transparent 0),
+      radial-gradient(circle 5px at 40px 30px, #FF3D00 100%, transparent 0);
+    border-radius: 50%;
+    animation: rotate 1s linear infinite;
+  }
+.loader-4:after {
+	content: '';
+	position: absolute;
+	top: 0%;
+	transform: translate(-50% , -100%);
+	left: 50%;
+	width: 24px;
+	height: 12px;
+	background: #fff;
+	border-radius: 50px 50px 0 0;
+}
+
+@keyframes flix {
+    0%  , 60% { transform: rotate(-10deg)}
+    100%  , 30% , 80% { transform: rotate(5deg)}
+}
+@keyframes rotate {
+    100%   { transform: rotate(360deg)}
+}
+
+/** Neomorphism */
+.card-custom {
+	border-radius: 50px;
+	background: #5f27cd;
+	box-shadow:  25px 25px 50px #5121ae,-25px -25px 50px #6d2dec;
+	cursor: pointer;
+}
+/** notificaciones y más */
+.box-action{
+	margin-bottom: 1em;
+}
+.box-action img {
+	width: 2.5em;
+	float: right;
+	cursor: pointer;
+}
+
+.link{
+	margin: auto;
+	padding: 1rem;
+    text-align: center;
+}
+.btn-custom{
+	text-decoration: none;
+	color: #ffffff;
+	background: linear-gradient(to right, #6a3093, #a044ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	border-radius: 1em;
+	padding: 1em 1em;
+	margin: 2em 2em;
+}

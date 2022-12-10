@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Notificaciones</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+	<link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<style>
+		section{
+			text-align: center;
+		}
+	</style>
+	<main class="container">
+		<div class="grid">
+			<div>
+				<article>
+					<header>
+						<h2>Series</h2>
+					</header>
+					<section>
+						<lord-icon
+							src="https://cdn.lordicon.com/oitjmxur.json"
+							trigger="hover"
+							style="width:250px;height:250px">
+						</lord-icon>
+						<p> 📺 Plataforma de Streaming con una gran variedad de series estreno</p>
+					</section>
+					<footer>
+						<div class="box-action">
+							<a href="https://netflix.com" target="_blank" title="Netflix">NETFLIX</a>
+							<img src="./icons/add.png" alt="Agregar" width="40px" data-link="netflix" class="add-platform"/>
+						</div>
+					</footer>
+				</article>
+			</div>
+			<div>
+				<article>
+					<header>
+						<h2>Música</h2>
+					</header>
+					<section>
+						<lord-icon
+							src="https://cdn.lordicon.com/rsvjbeuw.json"
+							trigger="hover"
+							style="width:250px;height:250px">
+						</lord-icon>
+						<p> 🎧 Escucha a tus artistas favoritos, conoce sus nuevos lanzamientos y remix </p>
+					</section>
+					<footer>
+						<div class="box-action">
+							<a href="https://music.youtube.com/" target="_blank" title="Youtube Music">YOUTUBE MUSIC</a>
+							<img src="./icons/add.png" alt="Agregar" width="40px" data-link="youtube" class="add-platform"/>
+						</div>
+					</footer>
+				</article>
+			</div>
+			<div>
+				<article>
+					<header>
+						<h2>Podcast</h2>
+					</header>
+					<section>
+						<lord-icon
+							src="https://cdn.lordicon.com/pneolqso.json"
+							trigger="hover"
+							style="width:250px;height:250px">
+						</lord-icon>
+						<p> 🎙️ Audiolibros, entrevistas, programas de radio y mucho más... </p>
+					</section>
+					<footer>
+						<div class="box-action">
+							<a href="https://www.ivoox.com/en/" target="_blank" title="IVOOX">IVOOX</a>
+							<img src="./icons/add.png" alt="Agregar" width="40px" data-link="ivoox" class="add-platform"/>
+						</div>
+					</footer>
+				</article>
+			</div>
+		</div>
+	</main>
+	<script src="https://cdn.lordicon.com/fudrjiwc.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<script src="app.js"></script>
+</body>
+</html>
