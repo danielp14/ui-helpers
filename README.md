@@ -19,19 +19,19 @@ Breve recopilación de herramientas y plataformas que utilizamos para agilizar e
 - Gráficos
 
 ## Links
-- [Font Awesome Icons](https://fontawesome.com/icons)
-- [Flat Icons](https://www.flaticon.com/)
-- [Flat UI Colors](https://flatuicolors.com/)
-- [Lord Icons Animated](https://lordicon.com/icons)
-- [Toastyfy JS](https://apvarun.github.io/toastify-js/)
-- [Sweet Alert 2](https://sweetalert2.github.io/#examples)
-- [UI Gradients](https://uigradients.com/)
-- [Neumorphism](https://neumorphism.io/)
-- [CSS Loaders](https://cssloaders.github.io/)
-- [Bootstrap](https://getbootstrap.com/)
-- [Pico CSS](https://picocss.com/)
-- [Undraw](undraw.co/illustrations)
-- [Generadores de Imagenes](https://loremipsum.io/21-of-the-best-placeholder-image-generators/)
+- **[Font Awesome Icons](https://fontawesome.com/icons)**
+- **[Flat Icons](https://www.flaticon.com/)**
+- **[Flat UI Colors](https://flatuicolors.com/)**
+- **[Lord Icons Animated](https://lordicon.com/icons)**
+- **[Toastyfy JS](https://apvarun.github.io/toastify-js/)**
+- **[Sweet Alert 2](https://sweetalert2.github.io/#examples)**
+- **[UI Gradients](https://uigradients.com/)**
+- **[Neumorphism](https://neumorphism.io/)**
+- **[CSS Loaders](https://cssloaders.github.io/)**
+- **[Bootstrap](https://getbootstrap.com/)**
+- **[Pico CSS](https://picocss.com/)**
+- **[Undraw](undraw.co/illustrations)**
+- **[Generadores de Imagenes](https://loremipsum.io/21-of-the-best-placeholder-image-generators/)**
 
 
 
